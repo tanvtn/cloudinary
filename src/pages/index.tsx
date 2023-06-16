@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Home() {
   const images = [
@@ -20,8 +19,18 @@ export default function Home() {
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {images.map((image) => {
-          return <img src={image} className="w-full h-auto" />;
+        {images.map((image, index) => {
+          return (
+            <Image
+              src={image}
+              key={index}
+              alt={image}
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto"
+            />
+          );
         })}
       </div>
     </div>
