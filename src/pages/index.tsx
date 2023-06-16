@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  console.log(111);
   const images = [
     "https://res.cloudinary.com/dbt9zpjzn/image/upload/v1686931579/Scanpan-Impact-5pc-Cookware-Set_1_2000px_jhkkhx.jpg",
     "https://res.cloudinary.com/dbt9zpjzn/image/upload/v1686931579/Kitchen-Pro-Denny-24pc-Storage-Cube-Canister-Starter-Pack-HERO_3_bjyqfd.jpg",
