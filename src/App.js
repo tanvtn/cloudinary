@@ -39,7 +39,7 @@ function App() {
       <div className="container mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <img
-            src="/Scanpan-Impact-5pc-Cookware-Set_1_2000px.jpg"
+            src="image/Scanpan-Impact-5pc-Cookware-Set_1_2000px.jpg"
             className="w-full h-auto"
             alt="Scanpan-Impact-5pc-Cookware-Set_1_2000px"
           />
