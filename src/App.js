@@ -18,36 +18,31 @@ function App() {
   //   "https://res.cloudinary.com/dbt9zpjzn/image/upload/v1686931577/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Candy-Apple-Red_1_2000px_rtltlz.jpg",
   // ];
 
-  const [images, setImages] = useState([]);
+  // const [images, setImages] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const { data } = await axios.get(
-          "http://localhost:8000/api/v1/dock/cloudinary/images"
-        );
-        setImages(data);
-      } catch (error) {
-        console.error(error.message);
-      }
-    };
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const { data } = await axios.get(
+  //         "http://localhost:8000/api/v1/dock/cloudinary/images"
+  //       );
+  //       setImages(data);
+  //     } catch (error) {
+  //       console.error(error.message);
+  //     }
+  //   };
+  //   fetchData();
+  // }, []);
 
   return (
     <div className="App">
       <div className="container mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {images.map((image, index) => {
-            return (
-              <img
-                src={image}
-                className="w-full h-auto"
-                key={index}
-                alt={image}
-              />
-            );
-          })}
+          <img
+            src="/Scanpan-Impact-5pc-Cookware-Set_1_2000px.jpg"
+            className="w-full h-auto"
+            alt="Scanpan-Impact-5pc-Cookware-Set_1_2000px"
+          />
         </div>
       </div>
     </div>
