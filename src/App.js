@@ -1,7 +1,7 @@
-import Image from "next/image";
+import logo from "./logo.svg";
+import "./App.css";
 
-export default function Home() {
-  console.log(111);
+function App() {
   const images = [
     "https://res.cloudinary.com/dbt9zpjzn/image/upload/v1686931579/Scanpan-Impact-5pc-Cookware-Set_1_2000px_jhkkhx.jpg",
     "https://res.cloudinary.com/dbt9zpjzn/image/upload/v1686931579/Kitchen-Pro-Denny-24pc-Storage-Cube-Canister-Starter-Pack-HERO_3_bjyqfd.jpg",
@@ -18,22 +18,16 @@ export default function Home() {
   ];
 
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {images.map((image, index) => {
-          return (
-            <Image
-              src={image}
-              key={index}
-              alt={image}
-              width="0"
-              height="0"
-              sizes="100vw"
-              className="w-full h-auto"
-            />
-          );
-        })}
+    <div className="App">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {images.map((image, index) => {
+            return <img src={image} className="w-full h-auto" key={index} />;
+          })}
+        </div>
       </div>
     </div>
   );
 }
+
+export default App;
