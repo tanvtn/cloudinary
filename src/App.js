@@ -6,19 +6,19 @@ function App() {
     {
       id: 1,
       image:
-        "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg",
+        "/image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg",
     },
-    { id: 2, image: "image/Scanpan-Impact-5pc-Cookware-Set_1_2000px.jpg" },
+    { id: 2, image: "/image/Scanpan-Impact-5pc-Cookware-Set_1_2000px.jpg" },
     {
       id: 3,
       image:
-        "image/Kitchen-Pro-Denny-24pc-Storage-Cube-Canister-Starter-Pack-HERO_3.jpg",
+        "/image/Kitchen-Pro-Denny-24pc-Storage-Cube-Canister-Starter-Pack-HERO_3.jpg",
     },
-    { id: 4, image: "image/SodaStream-Power-Drink-Maker-Black_1_2000px.jpg" },
+    { id: 4, image: "/image/SodaStream-Power-Drink-Maker-Black_1_2000px.jpg" },
     {
       id: 5,
       image:
-        "image/Wolstead-Pro-Swift-Digital-Air-Fryer-Oven-12L-Black-LS_1_bgb59w.jpg",
+        "/image/Wolstead-Pro-Swift-Digital-Air-Fryer-Oven-12L-Black-LS_1_bgb59w.jpg",
     },
     {
       id: 6,
