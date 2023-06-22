@@ -27,36 +27,36 @@ function Detail() {
     {
       id: 6,
       image:
-        "image/Salisbury-Co-Sublime-Stemless-Wine-Glass-Set-500ml-6pc_1.jpg",
+        "/image/Salisbury-Co-Sublime-Stemless-Wine-Glass-Set-500ml-6pc_1.jpg",
     },
     {
       id: 7,
       image:
-        "image/Joseph-Joseph-Folio-4pc-Chopping-Board-Set-Large-Silver_1_2000px.jpg",
+        "/image/Joseph-Joseph-Folio-4pc-Chopping-Board-Set-Large-Silver_1_2000px.jpg",
     },
     {
       id: 8,
       image:
-        "image/Salisbury-Co-Province-Carry-Basket-with-Suede-Handle-Large-HERO.jpg",
+        "/image/Salisbury-Co-Province-Carry-Basket-with-Suede-Handle-Large-HERO.jpg",
     },
     {
       id: 9,
       image:
-        "image/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Candy-Apple-Red_1_2000px.jpg",
+        "/image/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Candy-Apple-Red_1_2000px.jpg",
     },
     {
       id: 10,
-      image: "image/Wolstead-Mineral-4pc-Cookware-Set-Ivory-HERO_01.jpg",
+      image: "/image/Wolstead-Mineral-4pc-Cookware-Set-Ivory-HERO_01.jpg",
     },
     {
       id: 11,
       image:
-        "image/Wolstead-Endure-Round-Enamel-Cast-Iron-Casserole-28cm-Red-HERO.jpg",
+        "/image/Wolstead-Endure-Round-Enamel-Cast-Iron-Casserole-28cm-Red-HERO.jpg",
     },
     {
       id: 12,
       image:
-        "image/Wolstead-Endure-Seasoned-Cast-Iron-Bread-Baking-Pan-39x25cm-HERO_01.jpg",
+        "/image/Wolstead-Endure-Seasoned-Cast-Iron-Bread-Baking-Pan-39x25cm-HERO_01.jpg",
     },
   ];
 
@@ -68,7 +68,9 @@ function Detail() {
   return (
     <div className="App bg-gray-200">
       <div className="container mx-auto">
-        <img src={image} className="w-full h-auto" alt={image} />
+        <div className="grid grid-cols-3">
+          <img src={image} className="w-full h-auto col-start-2" alt={image} />
+        </div>
       </div>
     </div>
   );
