@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import "./App.css";
 
-function App() {
+function Detail() {
+  const [image, setImage] = useState("");
+  const { id } = useParams();
+
   const images = [
     {
       id: 1,
@@ -55,25 +59,19 @@ function App() {
         "image/Wolstead-Endure-Seasoned-Cast-Iron-Bread-Baking-Pan-39x25cm-HERO_01.jpg",
     },
   ];
+
+  useEffect(() => {
+    const pic = images.find((item) => item.id === parseInt(id));
+    setImage(pic.image);
+  }, [id]);
+
   return (
     <div className="App bg-gray-200">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {images.map((item, index) => {
-            return (
-              <Link key={index} to={`/detail/${item.id}`}>
-                <img
-                  src={item.image}
-                  className="w-full h-auto"
-                  alt={item.image}
-                />
-              </Link>
-            );
-          })}
-        </div>
+        <img src={image} className="w-full h-auto" alt={image} />
       </div>
     </div>
   );
 }
 
-export default App;
+export default Detail;
