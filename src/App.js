@@ -2,11 +2,11 @@ import "./App.css";
 
 function App() {
   const thumbnail =
-    "https://res.cloudinary.com/dbt9zpjzn/image/upload/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_thumbnail";
+    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_thumbnail";
   const gallery =
-    "https://res.cloudinary.com/dbt9zpjzn/image/upload/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_gallery";
+    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_gallery";
   const full =
-    "https://res.cloudinary.com/dbt9zpjzn/image/upload/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_full";
+    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_full";
   return (
     <div className="App bg-gray-200">
       <div className="container mx-auto">
