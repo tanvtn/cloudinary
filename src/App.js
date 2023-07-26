@@ -2,11 +2,11 @@ import "./App.css";
 
 function App() {
   const thumbnail =
-    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_thumbnail";
+    "image/upload/Supplier%20Images%20/2000px/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Pebbled-Palm_1_2000px.jpg?imagetype=pdp_thumbnail";
   const gallery =
-    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_gallery";
+    "image/upload/Supplier%20Images%20/2000px/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Pebbled-Palm_1_2000px.jpg?imagetype=pdp_gallery";
   const full =
-    "image/Thermos-Stainless-King-Insulated-Food-Jar-710ml-Stainless-Steel_1_2000px.jpg?imagetype=pdp_full";
+    "image/upload/Supplier%20Images%20/2000px/KitchenAid-Artisan-KSM70-Bowl-Lift-Mixer-Pebbled-Palm_1_2000px.jpg?imagetype=pdp_full";
   return (
     <div className="App bg-gray-200">
       <div className="container mx-auto">
