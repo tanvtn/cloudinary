@@ -9,6 +9,9 @@ function App() {
   const full =
     "image/upload/c_fill,g_face,w_1250/f_auto/t_PDP_2000x2000/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_full";
 
+  const test =
+    "https://res.cloudinary.com/kitchenwarehouse/image/upload/c_fill,g_face,w_1250/f_auto/t_PDP_2000x2000/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_full";
+
   return (
     <div className="App bg-gray-200">
       <div className="container mx-auto">
@@ -19,6 +22,9 @@ function App() {
           <div className="col-span-3">
             <img src={gallery} alt="gallery" />
           </div>
+        </div>
+        <div>
+          <img src={full} alt="full" />
         </div>
         <div>
           <img src={full} alt="full" />
