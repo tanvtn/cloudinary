@@ -5,7 +5,7 @@ function App() {
     "image/upload/c_fill,g_face,w_106/f_auto/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_thumbnail";
 
   const gallery =
-    "image/upload/c_fill,g_face,w_106/f_auto/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_gallery";
+    "image/upload/c_fill,g_face,w_106/f_auto/t_PDP_2000x2000/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_gallery";
   const full =
     "image/upload/c_fill,g_face,w_1250/f_auto/t_PDP_2000x2000/Supplier%20Images%20/2000px/Villeroy-Boch-Rose-Garden-Sugar-Pot-270ml_1_2000px.jpg?imagetype=pdp_full";
 
